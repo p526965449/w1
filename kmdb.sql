@@ -9,8 +9,7 @@ INSERT INTO studios (Name) VALUES ("Warner Bros.");
 CREATE TABLE actors (Actor_id INTEGER PRIMARY KEY AUTOINCREMENT, Real_Name TEXT);
 INSERT INTO actors(Real_Name) VALUES ("Christian Bale"),("Michael Caine"),("Liam Neeson"),("Katie Holmes"),("Gary Oldman"),("Heath Ledger"),("Aaron Eckhart"),("Maggie Gyllenhaal"),("Tom Hardy"),("Joseph Gordon-Levitt"),("Anne Hathaway");
 CREATE TABLE characters (Character_id INTEGER PRIMARY KEY AUTOINCREMENT, Character_name TEXT, Actor_id Integer, Movie_id Integer);
-INSERT INTO characters (Character_name,actor_id,Movie_id) VALUES ('Bruce Wayne',1,1),('Alfred',2,1),("Ra's Al Ghul",3,1),('Rachel Dawes',4,1),('Commissioner Gordon',5, 1),('Bruce Wayne',5,2);
---('Joker',2),('Harvey Dent',2),('Alfred',2),('Rachel Dawes',2);
+INSERT INTO characters (Character_name,actor_id,Movie_id) VALUES ('Bruce Wayne',1,1),('Alfred',2,1),("Ra's Al Ghul",3,1),('Rachel Dawes',4,1),('Commissioner Gordon',5, 1),('Bruce Wayne',1,2),('Joker',6,2),('Harvey Dent',7,2),('Alfred',2,2),('Rachel Dawes',8,2),('Bruce Wayne',1,3),('Commissioner Gordon',5,3),('Bane',9,3),("John Blake",10,3),('Selina Kyle',11,3);
 .print "Movies"
 .print "======"
 .print ""
